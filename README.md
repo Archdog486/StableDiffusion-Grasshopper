@@ -1,5 +1,51 @@
-<div align="center">
 
+# Grasshopper-StableDiffusion
+
+A slightly modified version of **[InvokeAI: A Stable Diffusion Toolkit](https://github.com/invoke-ai/InvokeAI) /** [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) where the stable diffusion model can be connected to grasshopper (or anything else) through sockets. 
+The preset mode is image2image translation where a prompt is combined with a guiding input image. In this case, the guiding image is taken from rhino's viewport.
+Additionally, a simple humanUI interface is provided. Moreover, the script calling the stable diffusion model through a socket is wrapped in a hops definition to utilize its async functionality (while the image is computed, the viewport won't freeze). 
+
+![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled.png)
+![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/spcow.PNG)
+
+## Prerequisites
+
+A) **Stable Diffusion Model**
+
+- Clone this repro and follow the [install instructions](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/blob/main/docs/installation/INSTALL_WINDOWS.md)  for windows + anaconda 
+
+B) **Grasshopper Plugins**
+
+- install grasshopper [Hops](https://developer.rhino3d.com/guides/compute/hops-component/)
+- [Human](https://www.food4rhino.com/en/app/human)
+- [HumanUI](https://www.food4rhino.com/en/app/human-ui)
+- [Aviary (for image infill mode)](https://www.food4rhino.com/en/app/aviary)
+
+## Set-up
+
+1. Open Rhino 7+, launch grasshopper and open main.gh.
+In the upper section of the humanUI window, set viewport name
+2. open an **anaconda prompt**  and paste the commands to start the stable diffusion model (see image below)
+
+![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled%201.png)
+
+**Sample Images** 
+
+Naturally, the model is not limited to a particular domain
+
+![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled%202.png)
+
+![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled%203.png)
+
+### Experimental implementation of the image-infill mode:
+Interesting for integrating designs into an existing context that should be kept stable. In this example a background image was placed on the canvas and the area of the church was masked with red colored geometry. 
+
+![infill](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/raw/main/docs/assets/grasshopper/infill.png)
+
+
+## InvokeAI introduction
+
+<div align="center">
 # InvokeAI: A Stable Diffusion Toolkit
 
 _Formally known as lstein/stable-diffusion_
@@ -68,11 +114,7 @@ requests. Be sure to use the provided templates. They will help aid diagnose iss
 This fork is supported across multiple platforms. You can find individual installation instructions
 below.
 
-- #### [Linux](docs/installation/INSTALL_LINUX.md)
-
 - #### [Windows](docs/installation/INSTALL_WINDOWS.md)
-
-- #### [Macintosh](docs/installation/INSTALL_MAC.md)
 
 ### Hardware Requirements
 
