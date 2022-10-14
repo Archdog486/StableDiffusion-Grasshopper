@@ -1,5 +1,3 @@
-<div align="center">
-
 
 # Grasshopper-StableDiffusion
 
@@ -13,7 +11,7 @@ Additionally, a simple humanUI interface is provided. Moreover, the script calli
 
 A) **Stable Diffusion Model**
 
-- Clone this [repro](https://github.com/invoke-ai/InvokeAI) and follow Installation instructions
+- Clone this repro and follow the [install instructions]([https://github.com/CompVis/stable-diffusion](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/blob/main/docs/installation/INSTALL_WINDOWS.md)) instructions for windows + anaconda 
 
 B) **Grasshopper Plugins**
 
@@ -44,7 +42,7 @@ Naturally, the model is not limited to a particular domain
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled%203.png)
 
 
-
+<div align="center">
 # InvokeAI: A Stable Diffusion Toolkit
 
 _Formally known as lstein/stable-diffusion_
