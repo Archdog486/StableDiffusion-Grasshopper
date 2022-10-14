@@ -28,7 +28,7 @@ title: Windows
 5. Enter the newly-created StableDiffusion-Grasshopper folder. From this step forward make sure that you are working in the StableDiffusion-Grasshopper\stable-diffusion directory!
 
     ```batch
-    cd C:\path\toStableDiffusion-Grasshopper\stable-diffusion
+    cd C:\path\to\StableDiffusion-Grasshopper\stable-diffusion
     ```
 
 6. Run the following two commands:
