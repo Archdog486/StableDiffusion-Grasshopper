@@ -7,28 +7,24 @@ Additionally, a simple humanUI interface is provided. Moreover, the script calli
 
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled.png)
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/spcow.PNG)
+
 ## Prerequisites
 
 A) **Stable Diffusion Model**
 
-- Clone this repro and follow the [install instructions](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/blob/main/docs/installation/INSTALL_WINDOWS.md) instructions for windows + anaconda 
+- Clone this repro and follow the [install instructions](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/blob/main/docs/installation/INSTALL_WINDOWS.md)  for windows + anaconda 
 
 B) **Grasshopper Plugins**
 
 - install grasshopper [Hops](https://developer.rhino3d.com/guides/compute/hops-component/)
 - [Human](https://www.food4rhino.com/en/app/human)
 - [HumanUI](https://www.food4rhino.com/en/app/human-ui)
+- [Aviary (for image infill mode)](https://www.food4rhino.com/en/app/aviary)
 
 ## Set-up
 
-1. Fulfill Prerequisites
-2. Download this repository
-3. replace [dream.py](http://dream.py) file:
-in your stable diffusion folder (prerequisites Step A), navigate to 
-\scripts and replace the dream.py file with the dream.py file from this repro
-
 1. Open Rhino 7+, launch grasshopper and open main.gh.
-In the upper section of the humanUI window, set viewport name and file path to the stable diffusion model
+In the upper section of the humanUI window, set viewport name
 2. open an **anaconda prompt**  and paste the commands to start the stable diffusion model (see image below)
 
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled%201.png)
@@ -41,6 +37,8 @@ Naturally, the model is not limited to a particular domain
 
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled%203.png)
 
+experimental implementation of the image-infill mode:
+![infill](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/raw/main/docs/assets/grasshopper/infill.png)
 
 <div align="center">
 # InvokeAI: A Stable Diffusion Toolkit
