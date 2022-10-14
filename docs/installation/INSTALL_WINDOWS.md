@@ -25,10 +25,10 @@ title: Windows
     This will create StableDiffusion-Grasshopper folder where you will follow the rest of
     the steps.
 
-5. Enter the newly-created StableDiffusion-Grasshopper folder. From this step forward make sure that you are working in the StableDiffusion-Grasshopper/stable-diffusion directory!
+5. Enter the newly-created StableDiffusion-Grasshopper folder. From this step forward make sure that you are working in the StableDiffusion-Grasshopper\stable-diffusion directory!
 
     ```batch
-    cd StableDiffusion-Grasshopper/stable-diffusion
+    cd C:\path\toStableDiffusion-Grasshopper\stable-diffusion
     ```
 
 6. Run the following two commands:
@@ -70,7 +70,7 @@ title: Windows
       5. The weight file is >4 GB in size, so
         downloading may take a while.
 
-    Now run the following commands from **within the  StableDiffusion-Grasshopper/stable-diffusion directory** to copy the weights file to the right place:
+    Now run the following commands from **within the  StableDiffusion-Grasshopper\stable-diffusion directory** to copy the weights file to the right place:
 
     ```batch
     mkdir -p models\ldm\stable-diffusion-v1
