@@ -37,8 +37,11 @@ Naturally, the model is not limited to a particular domain
 
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled%203.png)
 
-experimental implementation of the image-infill mode:
+### Experimental implementation of the image-infill mode:
 ![infill](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/raw/main/docs/assets/grasshopper/infill.png)
+
+
+## InvokeAI introduction
 
 <div align="center">
 # InvokeAI: A Stable Diffusion Toolkit
