@@ -507,6 +507,13 @@ class Args(object):
             action='store_true',
             help='Start InvokeAI GUI',
         )
+
+        web_server_group.add_argument(
+        '--socket',
+        dest='socket',
+        action='store_true',
+        help='Start in socket server mode.',
+    )
         return parser
 
     # This creates the parser that processes commands on the invoke> command line

@@ -442,7 +442,7 @@ class InvokeAIWebServer:
         return {
             'model': 'stable diffusion',
             'model_id': args.model,
-            'model_hash': self.generate.model_hash,
+            #'model_hash': self.generate.model_hash,
             'app_id': APP_ID,
             'app_version': APP_VERSION,
         }
@@ -545,7 +545,8 @@ class InvokeAIWebServer:
                 )
                 eventlet.sleep(0)
 
-            def image_done(image, seed, first_seed):
+            def image_done(image, seed): #first_seed):
+                first_seed = seed
                 if self.canceled.is_set():
                     raise CanceledException
 
@@ -571,7 +572,7 @@ class InvokeAIWebServer:
                     'variation_amount' in all_parameters
                     and all_parameters['variation_amount'] > 0
                 ):
-                    first_seed = first_seed or seed
+                    first_seed = seed #first_seed or seed
                     this_variation = [
                         [seed, all_parameters['variation_amount']]
                     ]
