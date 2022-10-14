@@ -38,7 +38,8 @@ Naturally, the model is not limited to a particular domain
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled%203.png)
 
 ### Experimental implementation of the image-infill mode:
-Interesting to integrate designs into an existing context that should be kept stable. In this example a background image was placed on the canvas and the area of the church was masked with red colored geometry. 
+Interesting for integrating designs into an existing context that should be kept stable. In this example a background image was placed on the canvas and the area of the church was masked with red colored geometry. 
+
 ![infill](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/raw/main/docs/assets/grasshopper/infill.png)
 
 
