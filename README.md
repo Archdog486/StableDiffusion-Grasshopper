@@ -11,7 +11,7 @@ Additionally, a simple humanUI interface is provided. Moreover, the script calli
 
 A) **Stable Diffusion Model**
 
-- Clone this repro and follow the [install instructions]([https://github.com/CompVis/stable-diffusion](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/blob/main/docs/installation/INSTALL_WINDOWS.md)) instructions for windows + anaconda 
+- Clone this repro and follow the [install instructions](https://github.com/SerjoschDuering/StableDiffusion-Grasshopper/blob/main/docs/installation/INSTALL_WINDOWS.md) instructions for windows + anaconda 
 
 B) **Grasshopper Plugins**
 
