@@ -5,6 +5,9 @@ A slightly modified version of **[InvokeAI: A Stable Diffusion Toolkit](https://
 The preset mode is image2image translation where a prompt is combined with a guiding input image. In this case, the guiding image is taken from rhino's viewport.
 Additionally, a simple humanUI interface is provided. Moreover, the script calling the stable diffusion model through a socket is wrapped in a hops definition to utilize its async functionality (while the image is computed, the viewport won't freeze). 
 
+update: someone made a tutorial for this on youtube
+https://www.youtube.com/watch?v=4AHdTqosrbc
+
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/Untitled.png)
 ![Untitled](https://github.com/SerjoschDuering/Grasshopper-StableDiffusion/raw/main/images/spcow.PNG)
 
